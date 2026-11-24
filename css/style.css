@@ -1,0 +1,108 @@
+/* Estilo geral da página */
+body {
+    background-color: #292929;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+#cabecalho {
+    background-color: #2B124C;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #8B5CF6;
+}
+
+#cabecalho h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+/* Navegação */
+nav a {
+    color: #E5E5E5;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #363636;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #555555;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #A78BFA;
+    text-align: left;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Botão */
+.botao {
+    display: inline-block;
+    background-color: #8B5CF6;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2B124C;
+    color: #E5E5E5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    #cabecalho h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 15px auto;
+}
